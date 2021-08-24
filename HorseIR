@@ -1,0 +1,7 @@
+(S0) t0 : bool = @geq ( c0 , 2010 - 09 - 01 : date );
+(S1) t1 : bool = @leq ( c0 , 2010 - 09 - 30 : date );
+(S2) t2 : bool = @and ( t0 , t1 );
+(S3) t3 : f64 = @compress ( t2 , c1 );
+(S4) t4 : f64 = @compress ( t2 , c2 );
+(S5) t5 : f64 = @mul ( t3 , t4 );
+(S6) t6 : f64 = @sum ( t5 );
